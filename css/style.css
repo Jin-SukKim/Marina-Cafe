@@ -1,0 +1,70 @@
+html,body{
+min-height:100%;
+}
+#blurb {
+	font-size: 1.1em;
+	background:rgba(255,255,255,0.85);
+	width:70%;
+	margin:1em auto;
+	color:black;
+	text-align:center;
+}
+#mainBody {
+	font-size: 17pt;
+	background:rgba(255,255,255,0.95);
+	width:90%;
+	margin:1em auto;
+	text-align:left;
+	min-height:100%;
+}
+
+.column {
+    text-align:  center;
+	font-size: 0.9em;
+	color: black;
+	padding-left:1em;
+	padding-right:1em;
+	padding-top:1em;
+	
+}
+.left {
+    text-align:  left;
+	font-size: 0.9em;
+	color: black;
+	padding-left:2em;
+	padding-right:1em;
+	padding-top:1em;	
+}
+.item{
+ 
+ padding-left:1em;
+ color: black;
+ font-size:0.9em;
+}
+#foot {
+	background:rgba(255,255,255,0.95);
+	text-align: center;
+	font-size: 1em;
+	right: 0;
+	bottom: 0;
+	left: 0;
+}
+#mail {
+	color:black;
+	font-style: italic;
+	text-decoration: underline;
+}
+body {
+	background-image: url("../images/cafe.jpg");	
+}
+.extra-small{
+	width: 60%;
+	margin:0 20%
+}
+.perf{
+  display:inline;
+  
+}
+fieldset{
+ padding: 1em;
+}

@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+	   <title>Jobs</title>
+	   <meta charset="utf-8">
+	   <meta name="viewport" content="width=device-width, initial-scale=1">
+	   <link rel="stylesheet" href="css/cosmo/bootstrap.min.css">
+	   <script src="js/jquery-2.1.3.min.js" type="text/javascript"></script>
+	   <script src="js/bootstrap.min.js" type="text/javascript"></script>
+	    <link rel="stylesheet" href="css/style.css" type="text/css">
+	</head>
+	<body>
+		<nav class="navbar navbar-inverse" >
+			<div class="container-fluid" >
+				<div class="navbar-header">
+					<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>                        
+					</button>
+					<a class="navbar-brand" href="index.html">Marina Cafe</a>
+				</div>
+				<div class="collapse navbar-collapse" id="myNavbar">
+					<ul class="nav navbar-nav">
+						<li class="active"><a href="index.html">Home</a></li>
+						<li><a href="menu.html">Menu</a></li>
+						<li><a href="performances.html">Performances</a></li>
+						<li><a href="jobs.html">Jobs</a></li>
+						<li><a href="https://www.google.ca/maps/place/667+Lawrence+Ave,+Kelowna,+BC+V1Y+6P4/@49.8853675,-119.4907599,17z/data=!3m1!4b1!4m5!3m4!1s0x537df4a9cc9557f1:0x36e4bdcf3b84431a!8m2!3d49.8853675!4d-119.4885712">Find us</a></li>
+					</ul>
+				</div>
+			</div>
+		</nav>
+		<div id="mainBody" >
+			<div class="row">
+				<div class="col-xs-12 " >
+					<br />
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-xs-12 column" >
+					<p>Are you a college student looking for a part-time job?</p>
+					<p>Apply at Marina Cafe, we will work around your schedule.</p>
+					<p>Complete the form to get started.</p>
+				</div>
+			</div>
+			
+			<form class="form-horizontal" action="job_applications.php" method = "post">
+			<fieldset>
+				<div class="form-group">
+					<label class="control-label col-sm-4" for="name">Name:</label>
+					<div class="col-sm-7">
+						<input type="text" class="form-control" id="name" placeholder="Enter name" autofocus required>
+					</div>
+				</div>
+				<div class="form-group">
+					<label class="control-label col-sm-4" for="email">Email:</label>
+					<div class="col-sm-7">
+						<input type="email" class="form-control" id="email" placeholder="Enter email" required>
+					</div>
+				</div>
+				<div class="form-group">
+					<label class="control-label col-sm-4" for="phone">Phone:</label>
+					<div class="col-sm-7">
+						<input type="text" class="form-control" id="phone" placeholder="Enter phone" required>
+					</div>
+				</div>
+				<div class="form-group">
+					<label class="control-label col-sm-4">Please select the jobs you are interested in:</label>
+					<div class="col-sm-7 left">
+						<div class="checkbox">
+						  <input type="checkbox" value="bar_associate">Bar Asociate
+						</div>
+						<div class="checkbox">
+						  <input type="checkbox" value="server">Server
+						</div>
+						<div class="checkbox">
+						  <input type="checkbox" value="cleaning_maintainance">Cleaning & maintainance
+						</div>
+						<div class="checkbox">
+						  <input type="checkbox" value="manager">Manager
+						</div>
+					</div>
+				</div>
+				<div class="form-group">
+					<label class="control-label col-sm-4">Employment Type:</label>
+					<div class="col-sm-7 ">
+						<label class="radio-inline"><input type="radio" name="employment-type">Part-Time</label>
+						<label class="radio-inline"><input type="radio" name="employment-type">Full-Time</label>
+					</div>
+				</div>
+				<div class="form-group">
+					<label class="control-label col-sm-4" >Gender:</label>
+					<div class="col-sm-7 ">
+						<label class="radio-inline"><input type="radio" name="gender">Male</label>
+						<label class="radio-inline"><input type="radio" name="gender">Female</label>
+					</div>
+				</div>
+				<div class="form-group">
+					<label class="control-label col-sm-4" for="years_of_experience">Years of Experience:</label>
+					<div class="col-sm-3  ">
+						<select class="form-control" id="years_of_experience" required>
+							 <option disabled selected value> -- select an option -- </option>
+							<option>No experience</option>
+							<option>Less than one year</option>
+							<option>More than one year</option>
+						</select>
+					</div>	
+				</div>	
+				<div class="form-group">
+					<label class="control-label col-sm-4" for="comments">Comments</label>
+					<div class="col-sm-7">          
+						<textarea  class="form-control" id="comments" placeholder="Enter password">
+						</textarea>
+					</div>
+				</div>
+				
+				<div class="form-group">        
+				  <div class="col-sm-offset-2 col-sm-10">
+					<button type="submit" class="btn btn-default">Submit</button>
+					<button type="reset" class="btn btn-default">Reset</button>
+				  </div>
+				</div>
+			</fieldset>
+			</form>
+			<div class="row">
+				<div class="col-xs-12 " >
+					<br />
+				</div>
+			</div>
+		</div>
+		<footer class="container-fluid  text-center" id="foot">
+			Copyright@2017 Marina Cafe
+			<p>phone: 1-888-888-8888</p>
+			<p><a href='ma&#105;l&#116;o&#58;%6Dar%69na&#64;%6&#68;a&#114;i&#110;ac&#37;61&#102;e&#46;&#37;&#54;3om' id = "mail">ma&#114;in&#97;&#64;m&#97;&#114;&#105;&#110;&#97;cafe&#46;com</a></p>
+		</footer>
+	</body>
+</html>
